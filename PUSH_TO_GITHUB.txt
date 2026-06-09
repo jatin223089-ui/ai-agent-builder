@@ -1,0 +1,131 @@
+═══════════════════════════════════════════════════════════════
+    📤 PUSH YOUR CODE TO GITHUB - FOLLOW THESE STEPS
+═══════════════════════════════════════════════════════════════
+
+STEP 1: CREATE REPOSITORY ON GITHUB
+═══════════════════════════════════════════════════════════════
+
+1. Go to: https://github.com
+2. Sign in with your GitHub account (or create one)
+3. Click the "+" icon (top right corner)
+4. Select "New repository"
+5. Fill in:
+   
+   Repository name: ai-agent-builder
+   Description: AI Agent Builder with Quiz Feature - Built with React & FastAPI
+   Visibility: ✅ Public
+   
+   ❌ Do NOT check "Add a README file"
+   ❌ Do NOT add .gitignore
+   ❌ Do NOT choose a license yet
+
+6. Click "Create repository"
+
+═══════════════════════════════════════════════════════════════
+STEP 2: COPY YOUR GITHUB REPOSITORY URL
+═══════════════════════════════════════════════════════════════
+
+After creating the repository, GitHub will show you a page with commands.
+
+Look for a URL that looks like:
+https://github.com/YOUR-USERNAME/ai-agent-builder.git
+
+WRITE IT DOWN HERE:
+__________________________________________________________
+
+═══════════════════════════════════════════════════════════════
+STEP 3: PUSH YOUR CODE
+═══════════════════════════════════════════════════════════════
+
+Open a terminal in this folder (d:\ai-agent\ai-agent-main) and run:
+
+Replace YOUR-USERNAME with your actual GitHub username!
+
+───────────────────────────────────────────────────────────────
+git remote add origin https://github.com/YOUR-USERNAME/ai-agent-builder.git
+git branch -M main
+git push -u origin main
+───────────────────────────────────────────────────────────────
+
+When prompted:
+- Enter your GitHub username
+- Enter your GitHub password (or Personal Access Token)
+
+Note: If password doesn't work, you need a Personal Access Token:
+1. GitHub.com → Settings → Developer settings
+2. Personal access tokens → Tokens (classic)
+3. Generate new token → Select "repo" scope
+4. Copy token and use it as password
+
+═══════════════════════════════════════════════════════════════
+STEP 4: VERIFY
+═══════════════════════════════════════════════════════════════
+
+After pushing:
+1. Go to your GitHub repository URL
+2. Refresh the page
+3. You should see all your files!
+
+✅ Check that you see:
+   - backend/ folder
+   - frontend/ folder
+   - README.md
+   - All documentation files
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Error: "remote origin already exists"
+→ Run: git remote remove origin
+→ Then try adding origin again
+
+Error: "Authentication failed"
+→ Use Personal Access Token instead of password
+→ GitHub.com → Settings → Developer settings → Personal access tokens
+
+Error: "Permission denied"
+→ Make sure you're logged in to correct GitHub account
+→ Check repository name is correct
+
+═══════════════════════════════════════════════════════════════
+WHAT'S NEXT?
+═══════════════════════════════════════════════════════════════
+
+After successfully pushing to GitHub:
+1. ✅ Repository is on GitHub
+2. 🚂 Deploy backend to Railway
+3. ▲ Deploy frontend to Vercel
+4. 🎉 Your app is live!
+
+See DEPLOY_INSTRUCTIONS.txt for deployment steps.
+
+═══════════════════════════════════════════════════════════════
+QUICK COMMANDS REFERENCE
+═══════════════════════════════════════════════════════════════
+
+# Add remote (replace YOUR-USERNAME)
+git remote add origin https://github.com/YOUR-USERNAME/ai-agent-builder.git
+
+# Set main branch
+git branch -M main
+
+# Push to GitHub
+git push -u origin main
+
+# Verify remote
+git remote -v
+
+═══════════════════════════════════════════════════════════════
+💡 PRO TIP
+═══════════════════════════════════════════════════════════════
+
+Make your repository public so:
+- Railway and Vercel can access it
+- You can easily share your project
+- Others can learn from your code
+
+═══════════════════════════════════════════════════════════════
+
+Done? Move to deployment!
+See: DEPLOY_INSTRUCTIONS.txt
